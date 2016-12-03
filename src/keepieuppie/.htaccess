@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^js/([^/]+)/([^/]+).js$ js/$2.js.php?i=$1

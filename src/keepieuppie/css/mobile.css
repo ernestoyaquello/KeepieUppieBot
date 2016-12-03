@@ -1,0 +1,51 @@
+@media only screen and (orientation:landscape) {
+	
+	body {
+		background-color:#62d8fe;
+	}
+	
+	.page_wrap {
+		overflow:hidden;
+		max-width:2800px;
+		background: #555;
+	}
+	
+	.canvas_wrap {
+		width: 50%;
+		margin:0;
+		padding:0;
+		float:left;
+		background: #FFF;
+		border: none;
+		vertical-align: middle;
+	}
+	
+	.result_wrap {
+		width: 42%;
+		padding:2%;
+		margin:2%;
+		float:left;
+		background: #FFF;
+		color:#000;
+		border-radius:10px;
+		font-size:20px;
+		vertical-align: middle;
+	}
+	
+	.canvas_wrap canvas {
+		width: 100%;
+		margin:0;
+		padding:0;
+		border:none;
+	}
+	
+	.ranking {
+		right:0;
+		width:42%;
+		padding:2%;
+		margin:2%;
+		background-color: #FFF;
+		height:auto;
+		vertical-align: middle;
+	}
+}
